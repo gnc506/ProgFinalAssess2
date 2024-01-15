@@ -1,14 +1,14 @@
 ProgFinalAssess2
------------------------------------------------------------------------
+-------------------
 The file 'output.csv' is a file containing data from volcanic eruptions since 46AD. This file contains columns refering to the Day, Month and Year an eruption occured. It also contains Earthquake and Tsunami data. Geographically it contains the Name, Location, Country, Latitude, Longitude and Elevation of the volcano itself. It also contains the Volcanos type and its eruptions VEI (Volcanic explosivity index). It also contain columns regading Deaths, Missing, Injuries, Damage and Homes lost due to the eruption. This data was downloaded from - 
--------------------------------------------------------------------------
+
 List of Python Packages used in code -
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
 from scipy.stats import spearmanr
---------------------------------------------------------------------------
+
 Brief Description of Programme
 Cell 1 - Imports necessary packages for manipulation, calculations and visualisations.
 Cell 2 - Reads the file and saves it in a new dataframe, drop the columns cotaining no real data.A new dataframe is then created from the old dataframe using the columns deemed revelant for the analysis. Summary statistics are then calculated for the new dataframe.
