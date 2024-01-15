@@ -1,6 +1,6 @@
 ProgFinalAssess2
 -------------------
-The file 'output.csv' is a file containing data from volcanic eruptions since 46AD. This file contains columns refering to the Day, Month and Year an eruption occured. It also contains Earthquake and Tsunami data. Geographically it contains the Name, Location, Country, Latitude, Longitude and Elevation of the volcano itself. It also contains the Volcanos type and its eruptions VEI (Volcanic explosivity index). It also contain columns regading Deaths, Missing, Injuries, Damage and Homes lost due to the eruption. This data was downloaded from - 
+The file 'output.csv' is a file containing data from volcanic eruptions since 46AD. This file contains columns refering to the Day, Month and Year an eruption occured. It also contains Earthquake and Tsunami data. Geographically it contains the Name, Location, Country, Latitude, Longitude and Elevation of the volcano itself. It also contains the Volcanos type and its eruptions VEI (Volcanic explosivity index). It also contain columns regading Deaths, Missing, Injuries, Damage and Homes lost due to the eruption. This data was downloaded from - https://www.ngdc.noaa.gov/hazel/view/hazards/volcano/event-data
 
 List of Python Packages used in code -
 import pandas as pd
